@@ -1,0 +1,37 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.left{
+  margin: 20px;
+}
+
+.left img{
+  width: 70px;
+  filter: drop-shadow(0 0 10px rgba(255, 174, 0, 0.8));
+}
+
+.right button{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s;
+  box-shadow: 0px 0px 15px rgba(255, 174, 0, 0.8);
+  margin: 20px;
+  font-weight: 700;
+}
+
+.right button:hover{
+  background-color: wheat;
+  color: black;
+}
+
+.right button:active{
+  box-shadow: 3px 6px 10px rgba(0,0,0,0);
+}

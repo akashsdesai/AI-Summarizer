@@ -1,0 +1,31 @@
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 10px;
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+h2{
+  font-size: 40px;
+  margin: 0;
+  background: -webkit-linear-gradient(0deg , orange 0%, rgb(238, 73, 73) 50%, orange 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.details{
+  max-width: 650px;
+  color: grey;
+}
+
+@media screen and (max-width:600px) {
+  h1, h2{
+    font-size: 35px;
+  }
+}
